@@ -1,0 +1,14 @@
+{
+  "product": "apex-validator",
+  "pattern": "crud-ui",
+  "entity": "Validator",
+  "fields": [
+    {"name": "semver", "type": "string"},
+    {"name": "cron", "type": "string"},
+    {"name": "jwt", "type": "string"}
+  ],
+  "permissions": ["admin:write"],
+  "audit": true,
+  "integrations": [{"service": "redis", "direction": "outbound", "events": ["cache_invalidate"]}],
+  "ui": {"list": true, "form": true}
+}

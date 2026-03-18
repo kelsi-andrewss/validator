@@ -1,0 +1,13 @@
+{
+  "product": "apex-validator",
+  "pattern": "library-extension",
+  "entity": "Validator",
+  "fields": [
+    {"name": "semver", "type": "string"},
+    {"name": "cron", "type": "string"},
+    {"name": "jwt", "type": "string"}
+  ],
+  "permissions": [],
+  "audit": false,
+  "ui": {}
+}
